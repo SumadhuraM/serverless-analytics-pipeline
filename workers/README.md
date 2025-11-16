@@ -60,7 +60,7 @@ serverless-data-pipeline/
 │   └── ingestion-worker.js    # Cloudflare Worker code
 ├── test.html                  # Demo interface
 ├── wrangler.toml             # Deployment configuration
-└── README.md                 # This file
+└── README.md                 # Readme file
 ```
 
 ## 🎯 Database Schema
@@ -107,7 +107,7 @@ For issues:
 3. Test with provided HTML interface
 
 ---
-**Developer**: [Your Name]  
-**Student ID**: [Your ID]  
+**Developer**: Sumadhura M  
+**Student ID**: sumadhura
 **Submission Date**: November 18, 2024  
 **Course**: Cloud Computing Project
