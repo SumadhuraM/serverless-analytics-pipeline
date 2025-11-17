@@ -107,7 +107,3 @@ For issues:
 3. Test with provided HTML interface
 
 ---
-**Developer**: Sumadhura M  
-**Student ID**: sumadhura 
-**Submission Date**: November 18, 2024  
-**Course**: Cloud Computing Project
