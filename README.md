@@ -1,9 +1,9 @@
 # Serverless Data Pipeline for Analytics
 
-## 📋 Project Overview
+##  Project Overview
 A complete serverless analytics pipeline that collects, processes, and stores user events in real-time. Built using free-tier cloud services with zero server management and zero operational costs.
 
-## 🎯 What This Project Does
+##  What This Project Does
 This pipeline allows you to:
 - Track user interactions on websites/apps
 - Store event data in a professional database
@@ -11,7 +11,7 @@ This pipeline allows you to:
 - Scale automatically from 1 to 100,000+ daily requests
 - Run completely free using cloud free tiers
 
-## 🏗️ System Architecture
+##  System Architecture
 ```
 [Website/Mobile App] 
      ↓ (Sends events via HTTP)
@@ -22,7 +22,7 @@ This pipeline allows you to:
 [Analytics Dashboard]
 ```
 
-## ✨ Key Features
+##  Key Features
 | Feature | Benefit |
 |---------|---------|
 | **Real-time Processing** | Events are stored within milliseconds |
@@ -32,7 +32,7 @@ This pipeline allows you to:
 | **CORS Support** | Works with any website or app |
 | **Production Ready** | Enterprise-grade reliability |
 
-## 🛠️ Technology Stack
+##  Technology Stack
 | Technology | Purpose | Why We Chose It |
 |------------|---------|----------------|
 | **Cloudflare Workers** | Serverless Functions | Free, fast, global edge network |
@@ -40,7 +40,7 @@ This pipeline allows you to:
 | **PostgreSQL** | Data Storage | Powerful SQL queries for analytics |
 | **JavaScript** | Programming | Universal language for web |
 
-## 🚀 Complete Setup Guide
+##  Complete Setup Guide
 
 ### Step 1: Create Accounts (Free)
 1. **Cloudflare Account**: Go to [cloudflare.com](https://cloudflare.com) → Sign up
@@ -93,7 +93,7 @@ wrangler deploy
 4. Go to your Supabase dashboard → Table Editor → `analytics_events`
 5. You should see your test event in the database!
 
-## 📁 Understanding the Project Structure
+##  Understanding the Project Structure
 ```
 serverless-analytics-pipeline/
 ├── workers/
@@ -198,7 +198,7 @@ fetch('YOUR_WORKER_URL', {
 });
 ```
 
-## 🗄️ Database Guide for Beginners
+##  Database Guide for Beginners
 
 ### What is PostgreSQL?
 PostgreSQL is a professional database system that uses SQL (Structured Query Language) to manage data.
@@ -264,7 +264,7 @@ ORDER BY visit_count DESC
 LIMIT 10;
 ```
 
-## ⚙️ Configuration Files Explained
+##  Configuration Files Explained
 
 ### wrangler.toml - Cloudflare Configuration
 ```toml
@@ -348,7 +348,7 @@ wrangler secret put SUPABASE_ANON_KEY
 2. Verify table name is `analytics_events`
 3. Test with simple event first
 
-## 📊 Performance & Limits
+##  Performance & Limits
 
 ### Free Tier Limits
 | Service | Free Limit | What Happens After |
@@ -363,7 +363,7 @@ wrangler secret put SUPABASE_ANON_KEY
 - **Data Durability**: Automatic backups by Supabase
 - **Scalability**: Instant auto-scaling
 
-## 🎓 Learning Concepts Demonstrated
+##  Learning Concepts Demonstrated
 
 ### Serverless Computing
 - **No server management** - Cloud provider handles everything
@@ -381,7 +381,7 @@ wrangler secret put SUPABASE_ANON_KEY
 - **Error Handling** - Production-grade error management
 - **Environment Configuration** - Secure credential management
 
-## 🔍 Monitoring & Debugging
+##  Monitoring & Debugging
 
 ### Check Cloudflare Worker Logs
 1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com)
@@ -395,7 +395,7 @@ wrangler secret put SUPABASE_ANON_KEY
 3. Use "Table Editor" to view data
 4. Use "SQL Editor" to run queries
 
-## 📈 Advanced Usage Ideas
+##  Advanced Usage Ideas
 
 ### 1. E-commerce Analytics
 Track: product views, add to cart, purchases, revenue
@@ -426,6 +426,6 @@ Want to improve this project? Here's how:
 - [Supabase Docs](https://supabase.com/docs) - Database & APIs
 - [MDN Web Docs](https://developer.mozilla.org/) - JavaScript reference
 
-## 📄 License
+##  License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
