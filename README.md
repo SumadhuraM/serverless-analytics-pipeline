@@ -108,7 +108,7 @@ serverless-analytics-pipeline/
 - **wrangler.toml**: Tells Cloudflare how to deploy your function
 - **test.html**: Simple webpage to test if your pipeline works
 
-## 🎯 How to Use the API
+##  How to Use the API
 
 ### Basic Event Tracking (Website Example)
 ```html
@@ -317,7 +317,7 @@ fetch('YOUR_WORKER_URL', {
 .then(data => console.log('Test result:', data));
 ```
 
-## 🐛 Common Issues & Solutions
+##  Common Issues & Solutions
 
 ### Issue 1: "CORS Error" in Browser
 **Problem:** Browser blocks request due to security
@@ -409,7 +409,7 @@ Track: app opens, screen views, in-app purchases
 ### 4. Marketing Analytics
 Track: campaign clicks, conversion rates, ROI
 
-## 🤝 Contributing to This Project
+##  Contributing to This Project
 
 Want to improve this project? Here's how:
 
@@ -419,7 +419,7 @@ Want to improve this project? Here's how:
 4. **Test** thoroughly
 5. **Submit** a pull request
 
-## 📞 Support & Resources
+##  Support & Resources
 
 ### Documentation
 - [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) - Serverless functions
