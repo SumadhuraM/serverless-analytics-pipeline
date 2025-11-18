@@ -281,7 +281,7 @@ SUPABASE_ANON_KEY = "your-anon-key-here"             # Your database password
 - **SUPABASE_URL**: Your Supabase project URL
 - **SUPABASE_ANON_KEY**: Password to access your database (keep this secret!)
 
-## 🧪 Testing Your Pipeline
+##  Testing Your Pipeline
 
 ### Method 1: Using the Test Page
 1. Open `workers/test.html` in browser
