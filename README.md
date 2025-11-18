@@ -1,7 +1,7 @@
 # Serverless Data Pipeline for Analytics
 
 ## 📋 Project Overview
-A comprehensive, production-grade serverless analytics pipeline designed to capture, process, and store user interaction data in real-time. This enterprise-level solution leverages cutting-edge cloud technologies to provide robust analytics capabilities without the complexity of traditional infrastructure management. Built exclusively on free-tier cloud services, the pipeline delivers enterprise features with zero server maintenance and zero operational costs within usage limits, making advanced analytics accessible to projects of all scales.
+A complete serverless analytics pipeline that collects, processes, and stores user events in real-time. Built using free-tier cloud services with zero server management and zero operational costs.
 
 ## 🎯 What This Project Does
 This pipeline allows you to:
